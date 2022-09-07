@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -37,6 +38,5 @@ namespace WebApplication1.Models
 
         public System.Data.Entity.DbSet<WebApplication1.Models.RentalInfo> RentalInfoes { get; set; }
         public System.Data.Entity.DbSet<WebApplication1.Models.User> Users { get; set; }
-
     }
 }

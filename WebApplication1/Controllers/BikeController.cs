@@ -37,8 +37,7 @@ namespace WebApplication1.Controllers
                         select s;
             if (!String.IsNullOrEmpty(searchString))
             {
-                bikes = bikes.Where(s => s.Description.Contains(searchString)
-                                       || s.Type.Contains(searchString));
+                bikes = bikes.Where(s => s.Type.Contains(searchString));
             }
             switch (sortOrder)
             {

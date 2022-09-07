@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.875, 8.5" name="databasediagram">
+  <DataContextMoniker Name="/databasediagramDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7f55118b-f614-470e-9a75-450fc13b98d0" absoluteBounds="4.375, 1.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/databasediagramDataContext/AspNetRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14a4c94b-da32-43bb-875b-3fdaa336f4bf" absoluteBounds="4.39, 2.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7933cafb-6d0d-457c-9311-98028d97760e" absoluteBounds="6.75, 5.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/databasediagramDataContext/AspNetUserClaim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="006a119f-97e8-41be-91d4-9f46656ee7dd" absoluteBounds="6.7650000000000006, 6.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fbad10b0-0d9e-420b-a4fb-6385b9a20141" absoluteBounds="4.375, 5.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/databasediagramDataContext/AspNetUserLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="76b3f121-1bd8-42b7-acc2-fa55da677a1e" absoluteBounds="4.3900000000000006, 6.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d1779d89-9f1b-4953-8188-7a03bc8646e6" absoluteBounds="4.5, 3.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/databasediagramDataContext/AspNetUserRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92a3ffa4-5451-41fc-9358-321c65a79449" absoluteBounds="4.5150000000000006, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94ee85e4-66d0-4f72-89bb-5e1daca2b526" absoluteBounds="2.125, 4.125, 2, 3.1170068359375">
+      <DataClassMoniker Name="/databasediagramDataContext/AspNetUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f0b6fbc9-4b05-437f-b91b-de03e0deaa1e" absoluteBounds="2.14, 4.585, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eab8b02e-7091-4dc2-b527-68030f319fad" absoluteBounds="9.5, 1.375, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/databasediagramDataContext/Bike" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da755e38-3c9d-4e63-9db5-d9dd2c1c5066" absoluteBounds="9.515, 1.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53befcee-3c7a-4e84-a6e6-49737e197244" absoluteBounds="6.875, 3.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/databasediagramDataContext/Parking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdf6e2f8-645b-4d62-94c2-a828a4007c53" absoluteBounds="6.89, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59dc06f1-df91-4701-931d-987d25d15166" absoluteBounds="9.625, 3.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/databasediagramDataContext/RentalInfoe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ded53b66-3f20-45c2-bda5-aa3e4c24ed36" absoluteBounds="9.64, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3c7631b-c0c1-479e-a135-054d66f80eaa" absoluteBounds="9.5, 5.25, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/databasediagramDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c5e3f43-346e-49b1-87d7-dd4be697589f" absoluteBounds="9.515, 5.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.4375 : 3.06899251302083); (5.4375 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/AspNetRole/AspNetRole_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="7f55118b-f614-470e-9a75-450fc13b98d0" />
+        <classShapeMoniker Id="d1779d89-9f1b-4953-8188-7a03bc8646e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.125 : 5.44074575651042); (6.78125 : 5.44074575651042); (6.78125 : 5.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/AspNetUser/AspNetUser_AspNetUserClaim" />
+      <nodes>
+        <classShapeMoniker Id="94ee85e4-66d0-4f72-89bb-5e1daca2b526" />
+        <classShapeMoniker Id="7933cafb-6d0d-457c-9311-98028d97760e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.125 : 6.55850341796875); (4.375 : 6.55850341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/AspNetUser/AspNetUser_AspNetUserLogin" />
+      <nodes>
+        <classShapeMoniker Id="94ee85e4-66d0-4f72-89bb-5e1daca2b526" />
+        <classShapeMoniker Id="fbad10b0-0d9e-420b-a4fb-6385b9a20141" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.125 : 4.53449625651042); (4.5 : 4.53449625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/AspNetUser/AspNetUser_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="94ee85e4-66d0-4f72-89bb-5e1daca2b526" />
+        <classShapeMoniker Id="d1779d89-9f1b-4953-8188-7a03bc8646e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.875 : 3.375); (9.5 : 3.14589680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/databasediagramDataContext/Parking/Parking_Bike" />
+      <nodes>
+        <classShapeMoniker Id="53befcee-3c7a-4e84-a6e6-49737e197244" />
+        <classShapeMoniker Id="eab8b02e-7091-4dc2-b527-68030f319fad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5625 : 3.14589680989583); (10.5625 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/Bike/Bike_RentalInfoe" />
+      <nodes>
+        <classShapeMoniker Id="eab8b02e-7091-4dc2-b527-68030f319fad" />
+        <classShapeMoniker Id="59dc06f1-df91-4701-931d-987d25d15166" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5625 : 5.25); (10.5625 : 4.7612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/databasediagramDataContext/User/User_RentalInfoe" />
+      <nodes>
+        <classShapeMoniker Id="e3c7631b-c0c1-479e-a135-054d66f80eaa" />
+        <classShapeMoniker Id="59dc06f1-df91-4701-931d-987d25d15166" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
